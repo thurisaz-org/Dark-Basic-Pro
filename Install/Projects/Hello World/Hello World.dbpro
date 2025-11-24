@@ -38,7 +38,7 @@ window resolution=640x480
 
 ; **** Media ****
 ; Example entries: media1=graphics\*.jpg
-media root path=F:\DOWNLOADS\Dark Basic Pro\Install\Projects\Hello World\
+media root path=.\
 
 ; **** Icons ****
 

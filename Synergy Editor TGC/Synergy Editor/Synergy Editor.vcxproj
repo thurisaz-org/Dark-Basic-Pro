@@ -82,8 +82,8 @@
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
     <IntDir>$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Program Files %28x86%29\Microsoft Visual Studio 14.0\VC\atlmfc\include;F:\TGCSHARED\Dark-Basic-Pro\Synergy Editor TGC\BCGControlBarPro(Editor)\BCGCBPro\;$(IncludePath)</IncludePath>
-    <LibraryPath>F:\TGCSHARED\Dark-Basic-Pro\Synergy Editor TGC\BCGControlBarPro(Editor)\Bin;C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.1A\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(VCInstallDir)atlmfc\include;$(SolutionDir)BCGControlBarPro(Editor)\BCGCBPro\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)BCGControlBarPro(Editor)\Bin;$(WindowsSdkDir)Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Remote|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
@@ -125,7 +125,7 @@
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <Culture>0x0409</Culture>
-      <AdditionalIncludeDirectories>$(IntDir);C:\Program Files\BCGSoft\BCGControlBarPro\BCGCBPro\Styles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(IntDir);$(SolutionDir)BCGControlBarPro(Editor)\BCGCBPro\Styles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>adpcored.lib;psapi.lib;shlwapi.lib;Wininet.lib;winmm.lib;Version.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -166,7 +166,7 @@
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <Culture>0x0409</Culture>
-      <AdditionalIncludeDirectories>$(IntDir);C:\Program Files\BCGSoft\BCGControlBarPro\BCGCBPro\Styles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(IntDir);$(SolutionDir)BCGControlBarPro(Editor)\BCGCBPro\Styles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>BCGCBPRO956StaticU90.lib;Version.lib;Wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -212,7 +212,7 @@
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <Culture>0x0409</Culture>
-      <AdditionalIncludeDirectories>$(IntDir);C:\Program Files\BCGSoft\BCGControlBarPro\BCGCBPro\Styles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(IntDir);$(SolutionDir)BCGControlBarPro(Editor)\BCGCBPro\Styles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>Version.lib;Wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -252,7 +252,7 @@
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <Culture>0x0409</Culture>
-      <AdditionalIncludeDirectories>$(IntDir);C:\Program Files\BCGSoft\BCGControlBarPro\BCGCBPro\Styles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(IntDir);$(SolutionDir)BCGControlBarPro(Editor)\BCGCBPro\Styles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>adpcore.lib;psapi.lib;shlwapi.lib;Wininet.lib;winmm.lib;Version.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
