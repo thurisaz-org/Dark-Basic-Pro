@@ -1,0 +1,47 @@
+﻿  DBDLLCore.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Core\SteamCheckForWorkshop.h(5,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Core/DBDLLCore.cpp')
+  
+  DBDLLCoreInternal.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(382,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Core/DBDLLCoreInternal.cpp')
+  
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(383,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Core/DBDLLCoreInternal.cpp')
+  
+  DBDLLDisplay.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(382,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Core/DBDLLDisplay.cpp')
+  
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(383,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Core/DBDLLDisplay.cpp')
+  
+  DBDLLEXT.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(382,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Core/DBDLLEXT.cpp')
+  
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(383,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Core/DBDLLEXT.cpp')
+  
+  DBDLLExtCalls.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(382,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Core/DBDLLExtCalls.cpp')
+  
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(383,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Core/DBDLLExtCalls.cpp')
+  
+  DBDLLGDI.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(382,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Core/DBDLLGDI.cpp')
+  
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(383,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Core/DBDLLGDI.cpp')
+  
+  globstruct.cpp
+  Encryptor.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\DBPCompiler\Encryptor.h(21,44): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file '../../../DBPCompiler/Encryptor.cpp')
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\DBPCompiler\Encryptor.cpp(29,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CError.cpp
+  Generating Code...

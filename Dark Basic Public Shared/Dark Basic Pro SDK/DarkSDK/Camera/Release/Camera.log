@@ -1,0 +1,15 @@
+﻿  CCameraC.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\DBOFormat\DBOFormat.h(14,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Shared/Camera/CCameraC.cpp')
+  
+  CCameraManagerC.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Camera\CCameraDatac.h(6,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Camera/CCameraManagerC.cpp')
+  
+  CDataC.cpp
+  CError.cpp
+  DLLMain.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\shared\camera\CCameraDatac.h(6,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../Camera/DLLMain.cpp')
+  
+  Generating Code...

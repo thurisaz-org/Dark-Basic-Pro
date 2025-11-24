@@ -1,0 +1,9 @@
+﻿  CInputC.cpp
+  CError.cpp
+  DLLMain.cpp
+  globstruct.cpp
+  Generating Code...
+  Controller.cpp
+D:\IDE\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1402,5): warning MSB8012: TargetPath(D:\My Projects\Dark-Basic-Pro\Install\Compiler\plugins\Input.dll) does not match the Linker's OutputFile property value (D:\My Projects\Dark-Basic-Pro\Install\Compiler\plugins\DBProInputDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+D:\IDE\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1404,5): warning MSB8012: TargetName(Input) does not match the Linker's OutputFile property value (DBProInputDebug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file 'dinput.lib'

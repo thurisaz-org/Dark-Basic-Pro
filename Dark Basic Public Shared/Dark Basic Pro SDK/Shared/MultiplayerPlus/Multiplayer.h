@@ -17,7 +17,7 @@
 #include <basetsd.h>
 #include <dplay8.h>
 #include <dpaddr.h>
-#include <dxerr9.h>
+#include <Dxerr.h>
 #include <tchar.h>
 #include <objbase.h>
 

@@ -1,0 +1,45 @@
+﻿  ConvX.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\ConvX\ConvX.h(14,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Shared/ConvX/ConvX.cpp')
+  
+  DBOBlock.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\DBOFormat\DBOData.h(12,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Shared/DBOFormat/DBOBlock.cpp')
+  
+  DBOData.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOData.h(12,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../SHARED/DBOFORMAT/DBOData.cpp')
+  
+  DBOEffects.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\DBOFormat\DBOEffects.h(15,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Shared/DBOFormat/DBOEffects.cpp')
+  
+  DBOExternals.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\DBOFormat\DBOExternals.h(15,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Shared/DBOFormat/DBOExternals.cpp')
+  
+  DBOFile.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\DBOFormat\DBOData.h(12,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Dark%20Basic%20Public%20Shared/Dark%20Basic%20Pro%20SDK/Shared/DBOFormat/DBOFile.cpp')
+  
+  DBOFormat.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\DBOFormat\DBOFormat.h(14,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Dark%20Basic%20Public%20Shared/Dark%20Basic%20Pro%20SDK/Shared/DBOFormat/DBOFormat.cpp')
+  
+  DBOFrame.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\DBOFormat\DBOFormat.h(14,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Dark%20Basic%20Public%20Shared/Dark%20Basic%20Pro%20SDK/Shared/DBOFormat/DBOFrame.cpp')
+  
+  DBOMesh.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\DBOFormat\DBOFormat.h(14,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Dark%20Basic%20Public%20Shared/Dark%20Basic%20Pro%20SDK/Shared/DBOFormat/DBOMesh.cpp')
+  
+  DBORawMesh.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\DBOFormat\DBOFormat.h(14,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Dark%20Basic%20Public%20Shared/Dark%20Basic%20Pro%20SDK/Shared/DBOFormat/DBORawMesh.cpp')
+  
+  NVMeshMenderD3DX.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\DBOFormat\Extras\NVMeshMenderD3DX.cpp(97,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CError.cpp
+  globstruct.cpp
+  Generating Code...

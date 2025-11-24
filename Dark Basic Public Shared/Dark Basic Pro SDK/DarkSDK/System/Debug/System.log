@@ -1,0 +1,60 @@
+﻿  DLLMain.cpp
+  dxdiaginfo.cpp
+  CSystemC.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(32,9): warning C4005: '_Field_size_': macro redefinition
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\sal.h(590,9):
+      see previous definition of '_Field_size_'
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(33,9): warning C4005: '_Field_size_bytes_': macro redefinition
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\sal.h(597,9):
+      see previous definition of '_Field_size_bytes_'
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(34,9): warning C4005: '_In_reads_bytes_opt_': macro redefinition
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\sal.h(319,9):
+      see previous definition of '_In_reads_bytes_opt_'
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(35,9): warning C4005: '_Out_writes_bytes_all_opt_': macro redefinition
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\sal.h(360,9):
+      see previous definition of '_Out_writes_bytes_all_opt_'
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(36,9): warning C4005: '_Field_size_bytes_part_': macro redefinition
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\sal.h(599,9):
+      see previous definition of '_Field_size_bytes_part_'
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(37,9): warning C4005: '_In_range_': macro redefinition
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\sal.h(568,9):
+      see previous definition of '_In_range_'
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(38,9): warning C4005: '_Out_writes_bytes_': macro redefinition
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\sal.h(347,9):
+      see previous definition of '_Out_writes_bytes_'
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(39,9): warning C4005: '_Check_return_': macro redefinition
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\sal.h(554,9):
+      see previous definition of '_Check_return_'
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(40,9): warning C4005: '_Inout_': macro redefinition
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\sal.h(375,9):
+      see previous definition of '_Inout_'
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(41,9): warning C4005: '_In_': macro redefinition
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\sal.h(305,9):
+      see previous definition of '_In_'
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(42,9): warning C4005: '_Out_': macro redefinition
+      D:\IDE\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\sal.h(342,9):
+      see previous definition of '_Out_'
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(43,9): warning C4005: 'NTDDI_VERSION': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\sdkddkver.h(238,9):
+      see previous definition of 'NTDDI_VERSION'
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(283,9): warning C4101: 'pGPI': unreferenced local variable
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(285,10): warning C4101: 'dwType': unreferenced local variable
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\System\CSystemC.cpp(406,37): warning C4244: '=': conversion from 'LONGLONG' to 'int', possible loss of data
+  CError.cpp
+  Generating Code...
+D:\IDE\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1402,5): warning MSB8012: TargetPath(D:\My Projects\Dark-Basic-Pro\Install\Compiler\plugins\System.dll) does not match the Linker's OutputFile property value (D:\My Projects\Dark-Basic-Pro\Install\Compiler\plugins\DBProSystemDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+D:\IDE\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1404,5): warning MSB8012: TargetName(System) does not match the Linker's OutputFile property value (DBProSystemDebug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library .\Debug/DBProSystemDebug.lib and object .\Debug/DBProSystemDebug.exp
+  System.vcxproj -> D:\My Projects\Dark-Basic-Pro\Install\Compiler\plugins\System.dll

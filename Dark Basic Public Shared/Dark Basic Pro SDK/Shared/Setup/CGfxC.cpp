@@ -80,6 +80,7 @@ D3DCAPS9					g_d3dcaps;
 	#include ".\..\..\..\DarkGDK\Code\Include\DarkSDKMultiplayer.h"
 	#include ".\..\..\..\DarkGDK\Code\Include\DarkSDKSystem.h"
 #endif
+#include <d3dx9math.h>
 
 //////////////////////////////////////////////////////////////////////////////////
 // GLOBAL VARIABLES //////////////////////////////////////////////////////////////

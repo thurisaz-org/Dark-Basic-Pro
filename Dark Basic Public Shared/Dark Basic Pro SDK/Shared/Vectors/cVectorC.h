@@ -64,7 +64,6 @@ DARKSDK void			Destructor  						( void );
 DARKSDK void			SetErrorHandler 					( LPVOID pErrorHandlerPtr );
 DARKSDK void			PassCoreData						( LPVOID pGlobPtr );
 DARKSDK void			RefreshD3D 							( int iMode );
-
 DARKSDK D3DXVECTOR2		GetVector2 							( int iID );
 DARKSDK D3DXVECTOR3		GetVector3 							( int iID );
 DARKSDK D3DXVECTOR4		GetVector4 							( int iID );

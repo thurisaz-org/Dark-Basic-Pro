@@ -63,7 +63,7 @@ struct sEffectConstantData
 {
 	// effect data
 
-	D3DXMATRIX		matWorld;
+	D3DXMATRIX 		matWorld;
 	D3DXMATRIX		matView;
 	D3DXMATRIX		matProj;
 	D3DXMATRIX		matWorldView;

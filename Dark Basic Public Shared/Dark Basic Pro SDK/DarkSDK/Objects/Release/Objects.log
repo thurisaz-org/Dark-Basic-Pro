@@ -1,0 +1,26 @@
+﻿  SteamCheckForWorkshop.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Core\SteamCheckForWorkshop.h(5,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Core/SteamCheckForWorkshop.cpp')
+  
+  DarkMemoryManager.cpp
+  cOcclusion.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Objects\CommonC.h(16,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Objects/Occlusion/cOcclusion.cpp')
+  
+  HZBManager.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Objects\CommonC.h(16,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Objects/Occlusion/HZBManager.cpp')
+  
+  cShadowMaps.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Objects\CommonC.h(16,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Objects/ShadowMapping/cShadowMaps.cpp')
+  
+  DepthTexture.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Objects\ShadowMapping\DepthTexture.h(7,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Shared/Objects/ShadowMapping/DepthTexture.cpp')
+  
+  GameFXCalls.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Objects\CommonC.h(16,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Objects/GameFXCalls.cpp')
+  
+  Generating Code...

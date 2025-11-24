@@ -3,7 +3,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LocalDebuggerCommand>$(OutDir)DBPCompiler.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments>FPSC-MapEditor.dbpro</LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>$(OutDir)</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

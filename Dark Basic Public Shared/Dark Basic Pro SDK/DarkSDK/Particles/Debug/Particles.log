@@ -1,0 +1,24 @@
+﻿  CParticleC.cpp
+  CParticleManagerC.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\SpecialEffects\cpositionc.h(6,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/SpecialEffects/CParticleC.cpp')
+  
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\SpecialEffects\cpositionc.h(6,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/SpecialEffects/CParticleManagerC.cpp')
+  
+  CBaseParticleC.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\SpecialEffects\CBaseParticleC.h(2,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/SpecialEffects/CBaseParticleC.cpp')
+  
+  CSnowC.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\SpecialEffects\CBaseParticleC.h(2,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/SpecialEffects/CSnowC.cpp')
+  
+  CDataC.cpp
+  CPositionC.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\SHARED\SPECIALEFFECTS\cpositionc.h(6,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../SHARED/SPECIALEFFECTS/CPositionC.cpp')
+  
+  CError.cpp
+  DLLMain.cpp
+  Generating Code...

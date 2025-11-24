@@ -1,0 +1,84 @@
+﻿  OptimizedMath.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(382,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Transforms/OptimizedMath.cpp')
+  
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(383,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Transforms/OptimizedMath.cpp')
+  
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(166,43): warning C4244: 'return': conversion from 'T' to 'T', possible loss of data
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(166,43): warning C4244:         with
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(166,43): warning C4244:         [
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(166,43): warning C4244:             T=double
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(166,43): warning C4244:         ]
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(166,43): warning C4244:         and
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(166,43): warning C4244:         [
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(166,43): warning C4244:             T=db3::f32
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(166,43): warning C4244:         ]
+  (compiling source file '../../Shared/Transforms/OptimizedMath.cpp')
+  D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(166,43):
+  the template instantiation context (the oldest one first) is
+  	D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Transforms\OptimizedMath.cpp(637,12):
+  	see reference to function template instantiation 'T db3::ACos<T>(T)' being compiled
+          with
+          [
+              T=db3::f32
+          ]
+  
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(146,44): warning C4244: 'return': conversion from 'double' to 'T', possible loss of data
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(146,44): warning C4244:         with
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(146,44): warning C4244:         [
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(146,44): warning C4244:             T=float
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(146,44): warning C4244:         ]
+  (compiling source file '../../Shared/Transforms/OptimizedMath.cpp')
+  D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(146,44):
+  the template instantiation context (the oldest one first) is
+  	D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Transforms\OptimizedMath.cpp(642,11):
+  	see reference to function template instantiation 'T db3::Sin<float>(T)' being compiled
+          with
+          [
+              T=float
+          ]
+  	D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(154,35):
+  	see reference to function template instantiation 'T db3::SinPrec<T>(T)' being compiled
+          with
+          [
+              T=float
+          ]
+  
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(148,44): warning C4244: 'return': conversion from 'double' to 'T', possible loss of data
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(148,44): warning C4244:         with
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(148,44): warning C4244:         [
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(148,44): warning C4244:             T=float
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(148,44): warning C4244:         ]
+  (compiling source file '../../Shared/Transforms/OptimizedMath.cpp')
+  D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(148,44):
+  the template instantiation context (the oldest one first) is
+  	D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Transforms\OptimizedMath.cpp(643,11):
+  	see reference to function template instantiation 'T db3::Cos<float>(T)' being compiled
+          with
+          [
+              T=float
+          ]
+  	D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(152,35):
+  	see reference to function template instantiation 'T db3::CosPrec<T>(T)' being compiled
+          with
+          [
+              T=float
+          ]
+  
+  Transform.cpp
+  TransformsAPI.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(382,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Transforms/TransformsAPI.cpp')
+  
+D:\My Projects\Dark-Basic-Pro\SDK\DB3\DB3Math.h(383,27): warning C4244: '=': conversion from 'double' to 'db3::f32', possible loss of data
+  (compiling source file '../../Shared/Transforms/TransformsAPI.cpp')
+  
+D:\IDE\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(D:\My Projects\Dark-Basic-Pro\Install\Compiler\plugins\Transforms.dll) does not match the Linker's OutputFile property value (D:\My Projects\Dark-Basic-Pro\Install\Compiler\plugins\DBProTransformsDebug.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+D:\IDE\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1394,5): warning MSB8012: TargetName(Transforms) does not match the Linker's OutputFile property value (DBProTransformsDebug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Transforms\..\..\..\..\Install\Compiler\plugins\Transforms.lib and object D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Transforms\..\..\..\..\Install\Compiler\plugins\Transforms.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 184 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Transforms.vcxproj -> D:\My Projects\Dark-Basic-Pro\Install\Compiler\plugins\Transforms.dll

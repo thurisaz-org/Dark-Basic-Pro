@@ -1,0 +1,31 @@
+﻿cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  CBSPFile.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Q3BSP\textures.h(12,10): error C1083: Cannot open include file: 'Dxerr.h': No such file or directory
+  (compiling source file '../../Shared/Q3BSP/CBSPFile.cpp')
+  
+  Loader.cpp
+  Unzip.cpp
+  Patch.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Q3BSP\cBSPFile.h(48,10): error C1083: Cannot open include file: 'Dxerr.h': No such file or directory
+  (compiling source file '../../Shared/Q3BSP/Patch.cpp')
+  
+  Shaders.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Q3BSP\cBSPFile.h(48,10): error C1083: Cannot open include file: 'Dxerr.h': No such file or directory
+  (compiling source file '../../Shared/Q3BSP/Shaders.cpp')
+  
+  Textures.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Q3BSP\Textures.h(12,10): error C1083: Cannot open include file: 'Dxerr.h': No such file or directory
+  (compiling source file 'Dark%20Basic%20Public%20Shared/Dark%20Basic%20Pro%20SDK/Shared/Q3BSP/Textures.cpp')
+  
+  CError.cpp
+  Collision.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Q3BSP\collision.h(7,10): error C1083: Cannot open include file: 'Dxerr.h': No such file or directory
+  (compiling source file '../../Shared/Q3BSP/Collision.cpp')
+  
+  3DMath.cpp
+  col_response.cpp
+  col_step.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\SHARED\Q3BSP\col\col_step.cpp(3,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  col_types.cpp
+  DLLMain.cpp
+  Generating Code...

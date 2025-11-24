@@ -1,0 +1,7 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+cl : command line  warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+  GameFX.cpp
+D:\IDE\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1402,5): warning MSB8012: TargetPath(D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDKMore\GameFX\Debug\GameFX.dll) does not match the Linker's OutputFile property value (F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProGameFX.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+D:\IDE\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1404,5): warning MSB8012: TargetName(GameFX) does not match the Linker's OutputFile property value (DBProGameFX). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library Debug\GameFX.lib and object Debug\GameFX.exp
+  GameFX.vcxproj -> D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDKMore\GameFX\Debug\GameFX.dll

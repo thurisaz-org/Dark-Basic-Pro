@@ -1,0 +1,10 @@
+﻿  CLightC.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\DBOFormat\DBOData.h(12,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Shared/Light/CLightC.cpp')
+  
+  CLightManagerC.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Light\CLightManagerC.h(12,10): error C1083: Cannot open include file: 'Dxerr.h': No such file or directory
+  (compiling source file '../../Shared/Light/CLightManagerC.cpp')
+  
+  CError.cpp
+  Generating Code...

@@ -15,7 +15,8 @@
 
 // Header to support texture ptrs
 #include "dxdiag.h"
-#include "D3dx9tex.h"
+//#include "D3dx9tex.h"
+#include <D3D9on12.h> 
 
 // Define compile mode
 #define DBPRO_COMPILE 1

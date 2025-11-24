@@ -1,0 +1,7 @@
+﻿  CBasic2DC.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Basic2D\cbasic2Dc.h(9,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Basic2D/CBasic2DC.cpp')
+  
+  CError.cpp
+  DLLMain.cpp
+  Generating Code...

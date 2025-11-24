@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+ <html xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><meta content="en-us" http-equiv="Content-Language" /><meta content="text/html; charset=utf-16" http-equiv="Content-Type" /><title _locID="ConversionReport0">
+          Migration Report
+        </title><style> 
+                    /* Body style, for the entire document */
+                    body
+                    {
+                        background: #F3F3F4;
+                        color: #1E1E1F;
+                        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    /* Header1 style, used for the main title */
+                    h1
+                    {
+                        padding: 10px 0px 10px 10px;
+                        font-size: 21pt;
+                        background-color: #E2E2E2;
+                        border-bottom: 1px #C1C1C2 solid; 
+                        color: #201F20;
+                        margin: 0;
+                        font-weight: normal;
+                    }
+
+                    /* Header2 style, used for "Overview" and other sections */
+                    h2
+                    {
+                        font-size: 18pt;
+                        font-weight: normal;
+                        padding: 15px 0 5px 0;
+                        margin: 0;
+                    }
+
+                    /* Header3 style, used for sub-sections, such as project name */
+                    h3
+                    {
+                        font-weight: normal;
+                        font-size: 15pt;
+                        margin: 0;
+                        padding: 15px 0 5px 0;
+                        background-color: transparent;
+                    }
+
+                    /* Color all hyperlinks one color */
+                    a
+                    {
+                        color: #1382CE;
+                    }
+
+                    /* Table styles */ 
+                    table
+                    {
+                        border-spacing: 0 0;
+                        border-collapse: collapse;
+                        font-size: 10pt;
+                    }
+
+                    table th
+                    {
+                        background: #E7E7E8;
+                        text-align: left;
+                        text-decoration: none;
+                        font-weight: normal;
+                        padding: 3px 6px 3px 6px;
+                    }
+
+                    table td
+                    {
+                        vertical-align: top;
+                        padding: 3px 6px 5px 5px;
+                        margin: 0px;
+                        border: 1px solid #E7E7E8;
+                        background: #F7F7F8;
+                    }
+
+                    /* Local link is a style for hyperlinks that link to file:/// content, there are lots so color them as 'normal' text until the user mouse overs */
+                    .localLink
+                    {
+                        color: #1E1E1F;
+                        background: #EEEEED;
+                        text-decoration: none;
+                    }
+
+                    .localLink:hover
+                    {
+                        color: #1382CE;
+                        background: #FFFF99;
+                        text-decoration: none;
+                    }
+
+                    /* Center text, used in the over views cells that contain message level counts */ 
+                    .textCentered
+                    {
+                        text-align: center;
+                    }
+
+                    /* The message cells in message tables should take up all avaliable space */
+                    .messageCell
+                    {
+                        width: 100%;
+                    }
+
+                    /* Padding around the content after the h1 */ 
+                    #content 
+                    {
+	                    padding: 0px 12px 12px 12px; 
+                    }
+
+                    /* The overview table expands to width, with a max width of 97% */ 
+                    #overview table
+                    {
+                        width: auto;
+                        max-width: 75%; 
+                    }
+
+                    /* The messages tables are always 97% width */
+                    #messages table
+                    {
+                        width: 97%;
+                    }
+
+                    /* All Icons */
+                    .IconSuccessEncoded, .IconInfoEncoded, .IconWarningEncoded, .IconErrorEncoded
+                    {
+                        min-width:18px;
+                        min-height:18px; 
+                        background-repeat:no-repeat;
+                        background-position:center;
+                    }
+
+                    /* Success icon encoded */
+                    .IconSuccessEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconSuccess#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABcElEQVR4Xq2TsUsCURzHv15g8ZJcBWlyiYYgCIWcb9DFRRwMW5TA2c0/QEFwFkxxUQdxVlBwCYWOi6IhWgQhBLHJUCkhLr/BW8S7gvrAg+N+v8/v+x68Z8MGy+XSCyABQAXgBgHGALoASkIIDWSLeLBetdHryMjd5IxQPWT4rn1c/P7+xxp72Cs9m5SZ0Bq2vPnbPFafK2zDvmNHypdC0BPkLlQhxJsCAhQoZwdZU5mwxh720qGo8MzTxTTKZDPCx2HoVzp6lz0Q9tKhyx0kGs8Ny+TkWRKk8lCROwEduhyg9l/6lunOPSfmH3NUH6uQ0KHLAe7JYvJjevm+DAMGJHToKtigE+vwvIidxLamb8IBY9e+C5LiXREkfho3TSd06HJA13/oh6T51MTsfQbHrsMynQ5dDihFjiK8JJAU9AKIWTp76dCVN7HWHrajmUEGvyF9nkbAE6gLIS7kTUyuf2gscLoJrElZo/Mvj+nPz/kLTmfnEwP3tB0AAAAASUVORK5CYII=);
+                    }
+
+                    /* Information icon encoded */
+                    .IconInfoEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconInformation#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHElEQVR4Xs2TsUoDQRRF7wwoziokjZUKadInhdhukR9YP8DMX1hYW+QvdsXa/QHBbcXC7W0CamWTQnclFutceIQJwwaWNLlwm5k5d94M76mmaeCrrmsLYOocY12FcxZFUeozCqKqqgYA8uevv1H6VuPxcwlfk5N92KHBxfFeCSAxxswlYAW/Xr989x/mv9gkhtyMDhcAxgzRsp7flj8B/HF1RsMXq+NZMkopaHe7lbKxQUEIGbKsYNoGn969060hZBkQex/W8oRQwsQaW2o3Ago2SVcJUzAgY3N0lTCZZm+zPS8HB51gMmS1DEYyOz9acKO1D8JWTlafKIMxdhvlfdyT94Vv5h7P8Ky7nQzACmhvKq3zk3PjW9asz9D/1oigecsioooAAAAASUVORK5CYII=);
+                    }
+
+                    /* Warning icon encoded */
+                    .IconWarningEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconWarning#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAx0lEQVR4XpWSMQ7CMAxFf4xAyBMLCxMrO8dhaBcuwdCJS3RJBw7SA/QGTCxdWJgiQYWKXJWKIXHIlyw5lqr34tQgEOdcBsCOx5yZK3hCCKdYXneQkh4pEfqzLfu+wVDSyyzFoJjfz9NB+pAF+eizx2Vruts0k15mPgvS6GYvpVtQhB61IB/dk6AF6fS4Ben0uIX5odtFe8Q/eW1KvFeH4e8khT6+gm5B+t3juyDt7n0jpe+CANTd+oTUjN/U3yVaABnSUjFz/gFq44JaVSCXeQAAAABJRU5ErkJggg==);
+                    }
+
+                    /* Error icon encoded */
+                    .IconErrorEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconError#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQElEQVR4XqWTvUoEQRCE6wYPZUA80AfwAQz23uCMjA7MDRQEIzPBVEyNTQUFIw00vcQTTMzuAh/AxEQQT8HF/3G/oGGnEUGuoNnd6qoZuqltyKEsyzVJq5I6rnUp6SjGeGhESikzzlc1eL7opfuVbrqbU1Zw9NCgtQMaZpY0eNnaaL2fHusvTK5vKu7sjSS1Y4y3QUA6K3e3Mau5UFDyMP7tYF9o8cAHZv68vipoIJg971PZIZ5HiwdvYGGvFVFHmGmZ2MxwmQYPXubPl9Up0tfoMQGetXd6mRbvhBw+boZ6WF7Mbv1+GsHRk0fQmPAH1GfmZirbCfDJ61tw3Px8/8pZsPAG4jlVhcPgZ7adwNWBB68lkRQWFiTgFlbnLY3DGGM7izIJIyT/jjIvEJw6fdJTc6krDzh6aMwMP9bvDH4ADSsa9uSWVJkAAAAASUVORK5CYII=);
+                    }
+                 </style><script type="text/javascript" language="javascript"> 
+          
+            // Startup 
+            // Hook up the the loaded event for the document/window, to linkify the document content
+            var startupFunction = function() { linkifyElement("messages"); };
+            
+            if(window.attachEvent)
+            {
+              window.attachEvent('onload', startupFunction);
+            }
+            else if (window.addEventListener) 
+            {
+              window.addEventListener('load', startupFunction, false);
+            }
+            else 
+            {
+              document.addEventListener('load', startupFunction, false);
+            } 
+            
+            // Toggles the visibility of table rows with the specified name 
+            function toggleTableRowsByName(name)
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  if(!!currentName && currentName.indexOf(name) == 0)
+                  {
+                      var isVisible = allRows[i].style.display == ''; 
+                      isVisible ? allRows[i].style.display = 'none' : allRows[i].style.display = '';
+                  }
+               }
+            }
+            
+            function scrollToFirstVisibleRow(name) 
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  var isVisible = allRows[i].style.display == ''; 
+                  if(!!currentName && currentName.indexOf(name) == 0 && isVisible)
+                  {
+                     allRows[i].scrollIntoView(true); 
+                     return true; 
+                  }
+               }
+               
+               return false;
+            }
+            
+            // Linkifies the specified text content, replaces candidate links with html links 
+            function linkify(text)
+            {
+                 if(!text || 0 === text.length)
+                 {
+                     return text; 
+                 }
+
+                 // Find http, https and ftp links and replace them with hyper links 
+                 var urlLink = /(http|https|ftp)\:\/\/[a-zA-Z0-9\-\.]+(:[a-zA-Z0-9]*)?\/?([a-zA-Z0-9\-\._\?\,\/\\\+&%\$#\=~;\{\}])*/gi;
+                 
+                 return text.replace(urlLink, '<a href="$&">$&</a>') ;
+            }
+            
+            // Linkifies the specified element by ID
+            function linkifyElement(id)
+            {
+                var element = document.getElementById(id);
+                if(!!element)
+                {
+                  element.innerHTML = linkify(element.innerHTML); 
+                }
+            }
+            
+            function ToggleMessageVisibility(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              toggleTableRowsByName("MessageRowClass" + projectName);
+              toggleTableRowsByName('MessageRowHeaderShow' + projectName);
+              toggleTableRowsByName('MessageRowHeaderHide' + projectName); 
+            }
+            
+            function ScrollToFirstVisibleMessage(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              // First try the 'Show messages' row
+              if(!scrollToFirstVisibleRow('MessageRowHeaderShow' + projectName))
+              {
+                // Failed to find a visible row for 'Show messages', try an actual message row 
+                scrollToFirstVisibleRow('MessageRowClass' + projectName); 
+              }
+            }
+           </script></head><body><h1 _locID="ConversionReport">
+          Migration Report - </h1><div id="content"><h2 _locID="OverviewTitle">Overview</h2><div id="overview"><table><tr><th></th><th _locID="ProjectTableHeader">Project</th><th _locID="PathTableHeader">Path</th><th _locID="ErrorsTableHeader">Errors</th><th _locID="WarningsTableHeader">Warnings</th><th _locID="MessagesTableHeader">Messages</th></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#AdvancedMatrix">AdvancedMatrix</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\AdvancedMatrix\AdvancedMatrix.vcxproj</td><td class="textCentered"><a href="#AdvancedMatrixError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Animation">Animation</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Animation\Animation.vcxproj</td><td class="textCentered"><a href="#AnimationError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Basic2D">Basic2D</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Basic2D\Basic2D.vcxproj</td><td class="textCentered"><a href="#Basic2DError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Bitmap">Bitmap</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Bitmap\Bitmap.vcxproj</td><td class="textCentered"><a href="#BitmapError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Bullet">Bullet</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Bullet\Bullet.vcxproj</td><td class="textCentered"><a href="#BulletError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Camera">Camera</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Camera\Camera.vcxproj</td><td class="textCentered"><a href="#CameraError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Conv3DS">Conv3DS</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Conv3DS\Conv3DS.vcxproj</td><td class="textCentered"><a href="#Conv3DSError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#ConvMD2">ConvMD2</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\ConvMD2\ConvMD2.vcxproj</td><td class="textCentered"><a href="#ConvMD2Error">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#ConvMD3">ConvMD3</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\ConvMD3\ConvMD3.vcxproj</td><td class="textCentered"><a href="#ConvMD3Error">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#ConvMDL">ConvMDL</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\ConvMDL\ConvMDL.vcxproj</td><td class="textCentered"><a href="#ConvMDLError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#ConvX">ConvX</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\ConvX\ConvX.vcxproj</td><td class="textCentered"><a href="#ConvXError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#CustomBSP">CustomBSP</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\CustomBSP\CustomBSP.vcxproj</td><td class="textCentered"><a href="#CustomBSPError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#DarkEXE">DarkEXE</a></strong></td><td>DBProCompiler\DBPCompilerEXE\DarkEXE.vcxproj</td><td class="textCentered"><a href="#DarkEXEError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#DBDLLCore">DBDLLCore</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Core\DBDLLCore.vcxproj</td><td class="textCentered"><a href="#DBDLLCoreError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#DBPCompiler">DBPCompiler</a></strong></td><td>DBProCompiler\DBPCompiler\DBPCompiler.vcxproj</td><td class="textCentered"><a href="#DBPCompilerError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#File">File</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\File\File.vcxproj</td><td class="textCentered"><a href="#FileError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#FTP">FTP</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\FTP\FTP.vcxproj</td><td class="textCentered"><a href="#FTPError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#GameFX">GameFX</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDKMore\GameFX\GameFX.vcxproj</td><td class="textCentered"><a href="#GameFXError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Image">Image</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Image\Image.vcxproj</td><td class="textCentered"><a href="#ImageError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Input">Input</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Input\Input.vcxproj</td><td class="textCentered"><a href="#InputError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Light">Light</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Light\Light.vcxproj</td><td class="textCentered"><a href="#LightError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Matrix">Matrix</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Matrix\Matrix.vcxproj</td><td class="textCentered"><a href="#MatrixError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Memblocks">Memblocks</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Memblocks\Memblocks.vcxproj</td><td class="textCentered"><a href="#MemblocksError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Multiplayer">Multiplayer</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Multiplayer\Multiplayer.vcxproj</td><td class="textCentered"><a href="#MultiplayerError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#MultiplayerPlus">MultiplayerPlus</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\MultiplayerPlus\MultiplayerPlus.vcxproj</td><td class="textCentered"><a href="#MultiplayerPlusError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Music">Music</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Music\Music.vcxproj</td><td class="textCentered"><a href="#MusicError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Objects">Objects</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Objects\Objects.vcxproj</td><td class="textCentered"><a href="#ObjectsError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Particles">Particles</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Particles\Particles.vcxproj</td><td class="textCentered"><a href="#ParticlesError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Q2BSP">Q2BSP</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Q2BSP\Q2BSP.vcxproj</td><td class="textCentered"><a href="#Q2BSPError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Q3BSP">Q3BSP</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Q3BSP\Q3BSP.vcxproj</td><td class="textCentered"><a href="#Q3BSPError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Setup">Setup</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Setup\Setup.vcxproj</td><td class="textCentered"><a href="#SetupError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Sound">Sound</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Sound\Sound.vcxproj</td><td class="textCentered"><a href="#SoundError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Sprites">Sprites</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Sprites\Sprites.vcxproj</td><td class="textCentered"><a href="#SpritesError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#System">System</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\System\System.vcxproj</td><td class="textCentered"><a href="#SystemError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Text">Text</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Text\Text.vcxproj</td><td class="textCentered"><a href="#TextError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Transforms">Transforms</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Transforms\Transforms.vcxproj</td><td class="textCentered"><a href="#TransformsError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Vectors">Vectors</a></strong></td><td>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Vectors\Vectors.vcxproj</td><td class="textCentered"><a href="#VectorsError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#Solution Items">Solution Items</a></strong></td><td>Solution Items</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#Solution"><span _locID="OverviewSolutionSpan">Solution</span></a></strong></td><td>Dark Basic Pro.sln</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('Solution'); return false;">1</a></td></tr></table></div><h2 _locID="SolutionAndProjectsTitle">Solution and projects</h2><div id="messages"><a name="AdvancedMatrix" /><h3>AdvancedMatrix</h3><table><tr id="AdvancedMatrixHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassAdvancedMatrix"><td class="IconErrorEncoded"><a name="AdvancedMatrixError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\AdvancedMatrix\AdvancedMatrix.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Animation" /><h3>Animation</h3><table><tr id="AnimationHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassAnimation"><td class="IconErrorEncoded"><a name="AnimationError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Animation\Animation.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Basic2D" /><h3>Basic2D</h3><table><tr id="Basic2DHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassBasic2D"><td class="IconErrorEncoded"><a name="Basic2DError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Basic2D\Basic2D.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Bitmap" /><h3>Bitmap</h3><table><tr id="BitmapHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassBitmap"><td class="IconErrorEncoded"><a name="BitmapError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Bitmap\Bitmap.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Bullet" /><h3>Bullet</h3><table><tr id="BulletHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassBullet"><td class="IconErrorEncoded"><a name="BulletError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Bullet\Bullet.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Camera" /><h3>Camera</h3><table><tr id="CameraHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassCamera"><td class="IconErrorEncoded"><a name="CameraError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Camera\Camera.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Conv3DS" /><h3>Conv3DS</h3><table><tr id="Conv3DSHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassConv3DS"><td class="IconErrorEncoded"><a name="Conv3DSError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Conv3DS\Conv3DS.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="ConvMD2" /><h3>ConvMD2</h3><table><tr id="ConvMD2HeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassConvMD2"><td class="IconErrorEncoded"><a name="ConvMD2Error" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\ConvMD2\ConvMD2.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="ConvMD3" /><h3>ConvMD3</h3><table><tr id="ConvMD3HeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassConvMD3"><td class="IconErrorEncoded"><a name="ConvMD3Error" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\ConvMD3\ConvMD3.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="ConvMDL" /><h3>ConvMDL</h3><table><tr id="ConvMDLHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassConvMDL"><td class="IconErrorEncoded"><a name="ConvMDLError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\ConvMDL\ConvMDL.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="ConvX" /><h3>ConvX</h3><table><tr id="ConvXHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassConvX"><td class="IconErrorEncoded"><a name="ConvXError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\ConvX\ConvX.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="CustomBSP" /><h3>CustomBSP</h3><table><tr id="CustomBSPHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassCustomBSP"><td class="IconErrorEncoded"><a name="CustomBSPError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\CustomBSP\CustomBSP.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="DarkEXE" /><h3>DarkEXE</h3><table><tr id="DarkEXEHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassDarkEXE"><td class="IconErrorEncoded"><a name="DarkEXEError" /></td><td class="messageCell"><strong>DBProCompiler\DBPCompilerEXE\DarkEXE.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="DBDLLCore" /><h3>DBDLLCore</h3><table><tr id="DBDLLCoreHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassDBDLLCore"><td class="IconErrorEncoded"><a name="DBDLLCoreError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Core\DBDLLCore.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="DBPCompiler" /><h3>DBPCompiler</h3><table><tr id="DBPCompilerHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassDBPCompiler"><td class="IconErrorEncoded"><a name="DBPCompilerError" /></td><td class="messageCell"><strong>DBProCompiler\DBPCompiler\DBPCompiler.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="File" /><h3>File</h3><table><tr id="FileHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassFile"><td class="IconErrorEncoded"><a name="FileError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\File\File.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="FTP" /><h3>FTP</h3><table><tr id="FTPHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassFTP"><td class="IconErrorEncoded"><a name="FTPError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\FTP\FTP.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="GameFX" /><h3>GameFX</h3><table><tr id="GameFXHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassGameFX"><td class="IconErrorEncoded"><a name="GameFXError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDKMore\GameFX\GameFX.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Image" /><h3>Image</h3><table><tr id="ImageHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassImage"><td class="IconErrorEncoded"><a name="ImageError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Image\Image.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Input" /><h3>Input</h3><table><tr id="InputHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassInput"><td class="IconErrorEncoded"><a name="InputError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Input\Input.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Light" /><h3>Light</h3><table><tr id="LightHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassLight"><td class="IconErrorEncoded"><a name="LightError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Light\Light.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Matrix" /><h3>Matrix</h3><table><tr id="MatrixHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassMatrix"><td class="IconErrorEncoded"><a name="MatrixError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Matrix\Matrix.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Memblocks" /><h3>Memblocks</h3><table><tr id="MemblocksHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassMemblocks"><td class="IconErrorEncoded"><a name="MemblocksError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Memblocks\Memblocks.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Multiplayer" /><h3>Multiplayer</h3><table><tr id="MultiplayerHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassMultiplayer"><td class="IconErrorEncoded"><a name="MultiplayerError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Multiplayer\Multiplayer.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="MultiplayerPlus" /><h3>MultiplayerPlus</h3><table><tr id="MultiplayerPlusHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassMultiplayerPlus"><td class="IconErrorEncoded"><a name="MultiplayerPlusError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\MultiplayerPlus\MultiplayerPlus.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Music" /><h3>Music</h3><table><tr id="MusicHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassMusic"><td class="IconErrorEncoded"><a name="MusicError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Music\Music.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Objects" /><h3>Objects</h3><table><tr id="ObjectsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassObjects"><td class="IconErrorEncoded"><a name="ObjectsError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Objects\Objects.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Particles" /><h3>Particles</h3><table><tr id="ParticlesHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassParticles"><td class="IconErrorEncoded"><a name="ParticlesError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Particles\Particles.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Q2BSP" /><h3>Q2BSP</h3><table><tr id="Q2BSPHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassQ2BSP"><td class="IconErrorEncoded"><a name="Q2BSPError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Q2BSP\Q2BSP.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Q3BSP" /><h3>Q3BSP</h3><table><tr id="Q3BSPHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassQ3BSP"><td class="IconErrorEncoded"><a name="Q3BSPError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Q3BSP\Q3BSP.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Setup" /><h3>Setup</h3><table><tr id="SetupHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassSetup"><td class="IconErrorEncoded"><a name="SetupError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Setup\Setup.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Sound" /><h3>Sound</h3><table><tr id="SoundHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassSound"><td class="IconErrorEncoded"><a name="SoundError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Sound\Sound.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Sprites" /><h3>Sprites</h3><table><tr id="SpritesHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassSprites"><td class="IconErrorEncoded"><a name="SpritesError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Sprites\Sprites.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="System" /><h3>System</h3><table><tr id="SystemHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassSystem"><td class="IconErrorEncoded"><a name="SystemError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\System\System.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Text" /><h3>Text</h3><table><tr id="TextHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassText"><td class="IconErrorEncoded"><a name="TextError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Text\Text.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Transforms" /><h3>Transforms</h3><table><tr id="TransformsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassTransforms"><td class="IconErrorEncoded"><a name="TransformsError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Transforms\Transforms.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Vectors" /><h3>Vectors</h3><table><tr id="VectorsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassVectors"><td class="IconErrorEncoded"><a name="VectorsError" /></td><td class="messageCell"><strong>Dark Basic Public Shared\Dark Basic Pro SDK\DarkSDK\Vectors\Vectors.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Solution Items" /><h3>Solution Items</h3><table><tr id="Solution ItemsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">Solution Items logged no messages.
+                  </td></tr></table><a name="Solution" /><h3 _locID="ProjectDisplayNameHeader">Solution</h3><table><tr id="SolutionHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          Show 1 additional messages
+        </a></td></tr><tr name="MessageRowClassSolution" style="display: none"><td class="IconInfoEncoded"><a name="SolutionMessage" /></td><td class="messageCell"><strong>Dark Basic Pro.sln:
+        </strong><span>The solution file does not require migration.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          Hide 1 additional messages
+        </a></td></tr></table></div></div></body></html>

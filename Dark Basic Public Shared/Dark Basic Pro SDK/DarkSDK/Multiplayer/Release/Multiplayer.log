@@ -1,0 +1,16 @@
+﻿  DLLMain.cpp
+  globstruct.cpp
+  CMultiplayerC.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Multiplayer\network\CNetwork.h(10,10): error C1083: Cannot open include file: 'dplay.h': No such file or directory
+  (compiling source file '../../Shared/Multiplayer/CMultiplayerC.cpp')
+  
+  CNetwork.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Multiplayer\Network\cnetwork.h(10,10): error C1083: Cannot open include file: 'dplay.h': No such file or directory
+  (compiling source file '../../Shared/Multiplayer/Network/CNetwork.cpp')
+  
+  NetQueue.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Multiplayer\Network\NetQueue.h(3,10): error C1083: Cannot open include file: 'dplay.h': No such file or directory
+  (compiling source file '../../Shared/Multiplayer/Network/NetQueue.cpp')
+  
+  CError.cpp
+  Generating Code...

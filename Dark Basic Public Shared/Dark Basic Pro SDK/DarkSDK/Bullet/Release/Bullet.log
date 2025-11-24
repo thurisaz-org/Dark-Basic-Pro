@@ -1,0 +1,270 @@
+﻿cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  btAxisSweep3.cpp
+  btBroadphaseProxy.cpp
+  btCollisionAlgorithm.cpp
+  btDbvt.cpp
+  btDbvtBroadphase.cpp
+  btDispatcher.cpp
+  btMultiSapBroadphase.cpp
+  btOverlappingPairCache.cpp
+  btQuantizedBvh.cpp
+  btSimpleBroadphase.cpp
+  btActivatingCollisionAlgorithm.cpp
+  btBox2dBox2dCollisionAlgorithm.cpp
+  btBoxBoxCollisionAlgorithm.cpp
+  btBoxBoxDetector.cpp
+  btCollisionDispatcher.cpp
+  btCollisionObject.cpp
+  btCollisionWorld.cpp
+  btCompoundCollisionAlgorithm.cpp
+  btConvex2dConvex2dAlgorithm.cpp
+  btConvexConcaveCollisionAlgorithm.cpp
+  Generating Code...
+  Compiling...
+  btConvexConvexAlgorithm.cpp
+  btConvexPlaneCollisionAlgorithm.cpp
+  btDefaultCollisionConfiguration.cpp
+  btEmptyCollisionAlgorithm.cpp
+  btGhostObject.cpp
+  btInternalEdgeUtility.cpp
+  btManifoldResult.cpp
+  btSimulationIslandManager.cpp
+  btSphereBoxCollisionAlgorithm.cpp
+  btSphereSphereCollisionAlgorithm.cpp
+  btSphereTriangleCollisionAlgorithm.cpp
+  btUnionFind.cpp
+  SphereTriangleDetector.cpp
+  btBox2dShape.cpp
+  btBoxShape.cpp
+  btBvhTriangleMeshShape.cpp
+  btCapsuleShape.cpp
+  btCollisionShape.cpp
+  btCompoundShape.cpp
+  btConcaveShape.cpp
+  Generating Code...
+  Compiling...
+  btConeShape.cpp
+  btConvex2dShape.cpp
+  btConvexHullShape.cpp
+  btConvexInternalShape.cpp
+  btConvexPointCloudShape.cpp
+  btConvexPolyhedron.cpp
+  btConvexShape.cpp
+  btConvexTriangleMeshShape.cpp
+  btCylinderShape.cpp
+  btEmptyShape.cpp
+  btHeightfieldTerrainShape.cpp
+  btMinkowskiSumShape.cpp
+  btMultimaterialTriangleMeshShape.cpp
+  btMultiSphereShape.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletCollision\CollisionShapes\btMultiSphereShape.cpp(84,19): warning C4288: nonstandard extension used: 'i': loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletCollision\CollisionShapes\btMultiSphereShape.cpp(80,14):
+  definition of 'i' used
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletCollision\CollisionShapes\btMultiSphereShape.cpp(74,19):
+  definition of 'i' ignored
+  
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletCollision\CollisionShapes\btMultiSphereShape.cpp(122,47): warning C4288: nonstandard extension used: 'i': loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletCollision\CollisionShapes\btMultiSphereShape.cpp(118,18):
+  definition of 'i' used
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletCollision\CollisionShapes\btMultiSphereShape.cpp(112,23):
+  definition of 'i' ignored
+  
+  btOptimizedBvh.cpp
+  btPolyhedralConvexShape.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(98,9): warning C4288: nonstandard extension used: 'i': loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope
+  (compiling source file '../../../../SDK/BULLET/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp')
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(97,6):
+  definition of 'i' used
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(86,11):
+  definition of 'i' ignored
+  
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(98,15): warning C4288: nonstandard extension used: 'i': loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope
+  (compiling source file '../../../../SDK/BULLET/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp')
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(97,6):
+  definition of 'i' used
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(86,11):
+  definition of 'i' ignored
+  
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(98,2): warning C4288: nonstandard extension used: 'i': loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope
+  (compiling source file '../../../../SDK/BULLET/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp')
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(97,6):
+  definition of 'i' used
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(86,11):
+  definition of 'i' ignored
+  
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(98,20): warning C4288: nonstandard extension used: 'i': loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope
+  (compiling source file '../../../../SDK/BULLET/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp')
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(97,6):
+  definition of 'i' used
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(86,11):
+  definition of 'i' ignored
+  
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(99,34): warning C4288: nonstandard extension used: 'i': loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope
+  (compiling source file '../../../../SDK/BULLET/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp')
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(97,6):
+  definition of 'i' used
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(86,11):
+  definition of 'i' ignored
+  
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(102,11): warning C4288: nonstandard extension used: 'i': loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope
+  (compiling source file '../../../../SDK/BULLET/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp')
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(97,6):
+  definition of 'i' used
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(86,11):
+  definition of 'i' ignored
+  
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(102,38): warning C4288: nonstandard extension used: 'i': loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope
+  (compiling source file '../../../../SDK/BULLET/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp')
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(97,6):
+  definition of 'i' used
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(86,11):
+  definition of 'i' ignored
+  
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(108,45): warning C4288: nonstandard extension used: 'i': loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope
+  (compiling source file '../../../../SDK/BULLET/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp')
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(97,6):
+  definition of 'i' used
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(86,11):
+  definition of 'i' ignored
+  
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(112,36): warning C4288: nonstandard extension used: 'i': loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope
+  (compiling source file '../../../../SDK/BULLET/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp')
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(97,6):
+  definition of 'i' used
+  D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h(86,11):
+  definition of 'i' ignored
+  
+  btScaledBvhTriangleMeshShape.cpp
+  btShapeHull.cpp
+  btSphereShape.cpp
+  btStaticPlaneShape.cpp
+  Generating Code...
+  Compiling...
+  btStridingMeshInterface.cpp
+  btTetrahedronShape.cpp
+  btTriangleBuffer.cpp
+  btTriangleCallback.cpp
+  btTriangleIndexVertexArray.cpp
+  btTriangleIndexVertexMaterialArray.cpp
+  btTriangleMesh.cpp
+  btTriangleMeshShape.cpp
+  btUniformScalingShape.cpp
+  btContactProcessing.cpp
+  btGenericPoolAllocator.cpp
+  btGImpactBvh.cpp
+  btGImpactCollisionAlgorithm.cpp
+  btGImpactQuantizedBvh.cpp
+  btGImpactShape.cpp
+  btTriangleShapeEx.cpp
+  gim_box_set.cpp
+  gim_contact.cpp
+  gim_memory.cpp
+  gim_tri_collision.cpp
+  Generating Code...
+  Compiling...
+  btContinuousConvexCollision.cpp
+  btConvexCast.cpp
+  btGjkConvexCast.cpp
+  btGjkEpa2.cpp
+  btGjkEpaPenetrationDepthSolver.cpp
+  btGjkPairDetector.cpp
+  btMinkowskiPenetrationDepthSolver.cpp
+  btPersistentManifold.cpp
+  btPolyhedralContactClipping.cpp
+  btRaycastCallback.cpp
+  btSubSimplexConvexCast.cpp
+  btVoronoiSimplexSolver.cpp
+  btKinematicCharacterController.cpp
+  btConeTwistConstraint.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp(860,21): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp(905,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp(965,13): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp(967,8): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+  btContactConstraint.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletDynamics\ConstraintSolver\btContactConstraint.h(25,28): warning C4359: 'btContactConstraint': Alignment specifier is less than actual alignment (128), and will be ignored.
+  (compiling source file '../../../../SDK/BULLET/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btContactConstraint.cpp')
+  
+  btFixedConstraint.cpp
+  btGearConstraint.cpp
+  btGeneric6DofConstraint.cpp
+  btGeneric6DofSpringConstraint.cpp
+  btHinge2Constraint.cpp
+  Generating Code...
+  Compiling...
+  btHingeConstraint.cpp
+  btPoint2PointConstraint.cpp
+  btSequentialImpulseConstraintSolver.cpp
+  btSliderConstraint.cpp
+  btSolve2LinearConstraint.cpp
+  btTypedConstraint.cpp
+  btUniversalConstraint.cpp
+  btDiscreteDynamicsWorld.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletDynamics\ConstraintSolver\btContactConstraint.h(25,28): warning C4359: 'btContactConstraint': Alignment specifier is less than actual alignment (128), and will be ignored.
+  (compiling source file '../../../../SDK/BULLET/bullet-2.81-rev2613/src/BulletDynamics/Dynamics/btDiscreteDynamicsWorld.cpp')
+  
+  btRigidBody.cpp
+  btSimpleDynamicsWorld.cpp
+  Bullet-C-API.cpp
+  btRaycastVehicle.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\BulletDynamics\ConstraintSolver\btContactConstraint.h(25,28): warning C4359: 'btContactConstraint': Alignment specifier is less than actual alignment (128), and will be ignored.
+  (compiling source file '../../../../SDK/BULLET/bullet-2.81-rev2613/src/BulletDynamics/Vehicle/btRaycastVehicle.cpp')
+  
+  btWheelInfo.cpp
+  btAlignedAllocator.cpp
+  btConvexHull.cpp
+  btConvexHullComputer.cpp
+  btGeometryUtil.cpp
+  btPolarDecomposition.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btPolarDecomposition.cpp(63,36): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btPolarDecomposition.cpp(63,30): warning C4244: 'initializing': conversion from 'double' to 'const btScalar', possible loss of data
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btPolarDecomposition.cpp(66,43): warning C4244: 'argument': conversion from 'double' to 'const btScalar', possible loss of data
+  btQuickprof.cpp
+  btSerializer.cpp
+  Generating Code...
+  Compiling...
+  btVector3.cpp
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btVector3.cpp(46,51): warning C4838: conversion from 'int' to 'const unsigned char' requires a narrowing conversion
+D:\My Projects\Dark-Basic-Pro\SDK\BULLET\bullet-2.81-rev2613\src\LinearMath\btVector3.cpp(431,51): warning C4838: conversion from 'int' to 'const unsigned char' requires a narrowing conversion
+  BulletPhysics.CPP
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\DBOFormat\DBOData.h(12,10): error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  (compiling source file '../../Shared/Bullet/BulletPhysics.CPP')
+  
+  BaseItem.cpp
+  BaseItemManager.cpp
+  BT2DX.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Bullet\Ragdoll\BT2DX.h(5,10): error C1083: Cannot open include file: 'D3dx9math.h': No such file or directory
+  (compiling source file '../../Shared/Bullet/Ragdoll/BT2DX.cpp')
+  
+  DBProJoint.cpp
+  DBProJointManager.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Camera\ccameradatac.h(6,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Bullet/Ragdoll/DBProJointManager.cpp')
+  
+  DBProJoints.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Bullet\Ragdoll\DBProJoints.cpp(18,56): warning C4305: 'initializing': truncation from 'double' to 'btScalar'
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Bullet\Ragdoll\DBProJoints.cpp(147,22): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+  DBProMotionState.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Camera\ccameradatac.h(6,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Bullet/Ragdoll/DBProMotionState.cpp')
+  
+  DBProRagDoll.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Camera\ccameradatac.h(6,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Bullet/Ragdoll/DBProRagDoll.cpp')
+  
+  DBProRagDollBone.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Camera\ccameradatac.h(6,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Bullet/Ragdoll/DBProRagDollBone.cpp')
+  
+  DBProRagdollManager.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Camera\ccameradatac.h(6,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Bullet/Ragdoll/DBProRagdollManager.cpp')
+  
+  DBProToBullet.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Camera\ccameradatac.h(6,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Bullet/Ragdoll/DBProToBullet.cpp')
+  
+  DBPro.cpp
+D:\My Projects\Dark-Basic-Pro\Dark Basic Public Shared\Dark Basic Pro SDK\Shared\Camera\ccameradatac.h(6,10): error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+  (compiling source file '../../Shared/Bullet/Ragdoll/DBPro/include/DBPro.cpp')
+  
+  Generating Code...

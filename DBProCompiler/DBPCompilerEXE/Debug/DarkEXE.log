@@ -1,0 +1,9 @@
+﻿cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  DarkMemoryManager.cpp
+  DarkEXE.cpp
+  FileReader.cpp
+  getdxver.cpp
+  Encryptor.cpp
+  EXEBlock.cpp
+  Generating Code...
+  DarkEXE.vcxproj -> D:\My Projects\Dark-Basic-Pro\DBProCompiler\DBPCompiler\DarkEXE.exe

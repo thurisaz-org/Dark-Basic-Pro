@@ -1,0 +1,45 @@
+﻿cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  DataTable.cpp
+  Declaration.cpp
+  EXEBlock.cpp
+  InstructionTable.cpp
+  InstructionTableEntry.cpp
+  LabelTable.cpp
+  MathOp.cpp
+  Parameter.cpp
+  ParseFunction.cpp
+  ParseInit.cpp
+  ParseInstruction.cpp
+  ParseJump.cpp
+  ParseLoop.cpp
+  ParseType.cpp
+  ParseUserFunction.cpp
+  Statement.cpp
+  StatementChain.cpp
+  StatementList.cpp
+  StructTable.cpp
+  Task.cpp
+  Generating Code...
+  Compiling...
+  VarTable.cpp
+  ASMWriter.cpp
+  DBMWriter.cpp
+  DBPCompiler.cpp
+  DebugInfo.cpp
+  Encryptor.cpp
+  Error.cpp
+  FileBuilder.cpp
+  IncludeTable.cpp
+  Main.cpp
+  Str.cpp
+D:\My Projects\Dark-Basic-Pro\DBProCompiler\DBPCompiler\Str.cpp(157,9): warning C4005: 'IS_CHECK_LENGTH_OK': macro redefinition
+      D:\My Projects\Dark-Basic-Pro\DBProCompiler\DBPCompiler\PerfMacros.h(26,10):
+      see previous definition of 'IS_CHECK_LENGTH_OK'
+  
+  CertificateKey.cpp
+  Generating Code...
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  DIB.C
+  ICONS.C
+  Generating Code...
+  DBPCompiler.vcxproj -> D:\My Projects\Dark-Basic-Pro\Install\Compiler\DBPCompiler.exe
