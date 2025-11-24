@@ -1,1 +1,20 @@
- 
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Common Paths Property Sheet for Dark Basic Pro SDK -->
+  <!-- This file defines shared include and library paths using Visual Studio macros -->
+  
+  <PropertyGroup>
+    <!-- Common Include Paths -->
+    <!-- Uses Visual Studio macros for portability across different installations -->
+    <CommonIncludePaths>$(WindowsSdkDir)Include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(DXSDK_DIR)\Include;$(SolutionDir)SDK\DB3\;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\EAX2\Include\;$(SolutionDir)SDK\NVAPI</CommonIncludePaths>
+    
+    <!-- Common Library Paths -->
+    <CommonLibraryPaths>$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)Lib;$(VCInstallDir)lib;$(DXSDK_DIR)\Lib\x86;$(SolutionDir)SDK\NVAPI\x86;$(SolutionDir)SDK\BaseClasses\;$(SolutionDir)SDK\BCG\Bin7\;$(SolutionDir)SDK\EAX2\Libs\</CommonLibraryPaths>
+  </PropertyGroup>
+  
+  <!-- Apply common paths to all configurations -->
+  <PropertyGroup>
+    <IncludePath>$(CommonIncludePaths);$(IncludePath)</IncludePath>
+    <LibraryPath>$(CommonLibraryPaths);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+</Project>
