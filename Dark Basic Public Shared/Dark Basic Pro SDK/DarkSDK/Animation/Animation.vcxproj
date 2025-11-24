@@ -112,7 +112,7 @@
     <IntDir Condition="'$(Configuration)|$(Platform)'=='ReleaseDEBUG|Win32'">$(ProjectDir)$(Configuration)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ReleaseDEBUG|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">F:\TGCSHARED\fpsc-reloaded\FPS Creator Files</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">$(ProjectDir)..\..\..\..\Install\Compiler\plugins\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">$(ProjectDir)$(Configuration)</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">false</LinkIncremental>
     <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
@@ -419,7 +419,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>..\..\Shared\BaseClasses\strmbasd.lib;d3dx9.lib;d3d9.lib;winmm.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProAnimationDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>..\..\..\Shared\BaseClasses;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>

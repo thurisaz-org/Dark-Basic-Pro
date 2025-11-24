@@ -419,7 +419,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>winmm.lib;dxguid.lib;dinput.lib;dinput8.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProInputDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories> ;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>

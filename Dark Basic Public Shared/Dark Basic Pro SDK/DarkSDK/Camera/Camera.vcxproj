@@ -117,7 +117,7 @@
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugAPP|Win32'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugLM|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">$(ProjectDir)..\..\..\..\Install\Compiler\plugins\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">$(ProjectDir)$(Configuration)\</IntDir>
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">true</IgnoreImportLibrary>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">false</LinkIncremental>
@@ -333,7 +333,7 @@
       <Culture>0x0809</Culture>
     </ResourceCompile>
     <Link>
-      <OutputFile>C:\TGCSHARED\fpsc-reloaded\FPS Creator Reloaded\DBProCameraDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (October 2006)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -378,7 +378,7 @@
       <Culture>0x0809</Culture>
     </ResourceCompile>
     <Link>
-      <OutputFile>C:\TGCSHARED\fpsc-reloaded\FPS Creator Reloaded\DBProCameraDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (October 2006)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -423,7 +423,7 @@
       <Culture>0x0809</Culture>
     </ResourceCompile>
     <Link>
-      <OutputFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProCameraDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (October 2006)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>

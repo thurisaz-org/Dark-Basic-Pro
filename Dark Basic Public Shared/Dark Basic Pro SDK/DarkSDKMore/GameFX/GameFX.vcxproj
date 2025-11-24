@@ -88,7 +88,7 @@
       <DisableSpecificWarnings>4312;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
-      <OutputFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProGameFX.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName).dll</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GameFX.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>

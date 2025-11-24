@@ -405,7 +405,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>winmm.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProParticlesDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>.\Debug/DBProParticlesDebug.pdb</ProgramDatabaseFile>

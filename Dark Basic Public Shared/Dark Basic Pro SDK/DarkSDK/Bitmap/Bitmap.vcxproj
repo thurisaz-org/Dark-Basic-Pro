@@ -389,7 +389,7 @@
       <Culture>0x0809</Culture>
     </ResourceCompile>
     <Link>
-      <OutputFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProBitmapDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>.\Debug/DBProBitmapDebug.pdb</ProgramDatabaseFile>

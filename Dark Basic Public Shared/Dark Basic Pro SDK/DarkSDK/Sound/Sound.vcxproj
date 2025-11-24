@@ -117,7 +117,7 @@
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='DebugLM|Win32'">true</IgnoreImportLibrary>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugAPP|Win32'">true</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugLM|Win32'">true</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">$(ProjectDir)..\..\..\..\Install\Compiler\plugins\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">$(ProjectDir)$(Configuration)\</IntDir>
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">true</IgnoreImportLibrary>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">true</LinkIncremental>
@@ -428,7 +428,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>dsound.lib;dxguid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProSoundDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>

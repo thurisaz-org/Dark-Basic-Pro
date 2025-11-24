@@ -117,7 +117,7 @@
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='ReleaseDEBUG|Win32'">true</IgnoreImportLibrary>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ReleaseDEBUG|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">$(ProjectDir)..\..\..\..\Install\Compiler\plugins\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">$(ProjectDir)$(Configuration)\</IntDir>
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">true</IgnoreImportLibrary>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">true</LinkIncremental>
@@ -254,7 +254,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>nvapi.lib;odbc32.lib;odbccp32.lib;winmm.lib;dxguid.lib;d3d9.lib;dxerr9.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>D:\SteamLibrary\SteamApps\common\Game Guru\DBProBasic3DDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -306,7 +306,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>nvapi.lib;odbc32.lib;odbccp32.lib;winmm.lib;dxguid.lib;d3d9.lib;dxerr9.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProBasic3DDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -423,7 +423,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>nvapi.lib;odbc32.lib;odbccp32.lib;winmm.lib;dxguid.lib;d3d9.lib;dxerr9.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>C:\TGCSHARED\fpsc-reloaded\Dark Basic Pro Reloaded\Install\Projects\TestBoneModels\DBPro$(TargetName)Debug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -479,12 +479,12 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>nvapi.lib;odbc32.lib;odbccp32.lib;winmm.lib;dxguid.lib;d3d9.lib;dxerr9.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProBasic3DDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProBasic3DDebug.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>.\Debug/DBProBasic3DDebug.pdb</ProgramDatabaseFile>
       <GenerateMapFile>true</GenerateMapFile>
       <MapExports>false</MapExports>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>

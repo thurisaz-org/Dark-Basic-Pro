@@ -117,7 +117,7 @@
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugAPP|Win32'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugLM|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">$(ProjectDir)..\..\..\..\Install\Compiler\plugins\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">$(ProjectDir)$(Configuration)</IntDir>
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">true</IgnoreImportLibrary>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">false</LinkIncremental>
@@ -405,7 +405,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>dxguid.lib;odbc32.lib;odbccp32.lib;D3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProSetupDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>C:\IWEARSDK\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>

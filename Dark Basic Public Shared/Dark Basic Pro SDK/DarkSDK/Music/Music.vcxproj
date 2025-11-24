@@ -405,7 +405,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>quartz.lib;winmm.lib;msacm32.lib;olepro32.lib;strmiids.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProMusicDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>.\Debug/DBProMusicDebug.pdb</ProgramDatabaseFile>

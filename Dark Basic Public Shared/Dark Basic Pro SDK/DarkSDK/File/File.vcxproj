@@ -112,7 +112,7 @@
     <IntDir Condition="'$(Configuration)|$(Platform)'=='ReleaseDEBUG|Win32'">$(ProjectDir)$(Configuration)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ReleaseDEBUG|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">F:\TGCSHARED\fpsc-reloaded\FPS Creator Files</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">$(ProjectDir)..\..\..\..\Install\Compiler\plugins\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">$(ProjectDir)$(Configuration)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">false</LinkIncremental>
     <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DebugFPSC|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
@@ -187,7 +187,7 @@
       <Culture>0x0809</Culture>
     </ResourceCompile>
     <Link>
-      <OutputFile>D:\SteamLibrary\steamapps\common\FPS Creator Reloaded\DBProFileDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>.\File___Win32_Debug_FPSCGame/DBProFileDebug.pdb</ProgramDatabaseFile>
@@ -396,7 +396,7 @@
       <Culture>0x0809</Culture>
     </ResourceCompile>
     <Link>
-      <OutputFile>F:\TGCSHARED\fpsc-reloaded\FPS Creator Files\DBProFileDebug.dll</OutputFile>
+      <OutputFile>$(OutDir)DBPro$(TargetName)Debug.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>.\Debug/DBProFileDebug.pdb</ProgramDatabaseFile>

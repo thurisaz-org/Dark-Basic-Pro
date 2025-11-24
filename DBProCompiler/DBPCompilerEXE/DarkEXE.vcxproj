@@ -84,8 +84,8 @@
   <PropertyGroup>
     <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\DBPCompiler\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug EXE APP|Win32'">F:\TGCSHARED\fpsc-reloaded\Dark Basic Pro Reloaded\Install\Projects\Bullet Physics Demo\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugLM|Win32'">F:\TGCSHARED\fpsc-reloaded\Dark Basic Pro Reloaded\Install\Projects\Bullet Physics Demo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug EXE APP|Win32'">$(ProjectDir)..\DBPCompiler\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugLM|Win32'">$(ProjectDir)..\DBPCompiler\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)$(Configuration)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug EXE APP|Win32'">$(ProjectDir)$(Configuration)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugLM|Win32'">$(ProjectDir)$(Configuration)\</IntDir>
